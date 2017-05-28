@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <!--stylesheets-->
     <link href="style.css" type="text/css" rel="stylesheet">
     
@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="pageOne" id="p1">
-      <ul class="nav nav-pills">
+      <!-- <ul class="nav nav-pills">
 	   	  <li>
 	   	  	<a href="#p1">Hruy W.Tadiyos</a>
 	   	  </li>
@@ -39,7 +39,26 @@
 	   	  <li class="pull-right">
 	   	  	<a href="#p2">About</a>
 	   	  </li>
-	   </ul>
+	   </ul> -->
+     <nav class="navbar navbar-default" data-offset-top="197">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+             <a href="#p1" class="navbar-brand">Hruy Weldemichael</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#p1">About</a></li>
+                      <li><a href="#p3">Portfolio</a></li>
+                      <li><a href="#p4">contact</a></li>
+                    </ul>   
+          </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.Container-fluid -->
+      </nav> 
 	   <div class="block text-center">	
 	     <h1>Hruy Weldemichael</h1>
 	     <h3>Eager to work as a web developer.</h3>
@@ -73,16 +92,16 @@
 
     <div class="pageThree text-center" id="p3">
        <div class="paddingTop">
-        <h1>My Portfolio</h1>	
+        <h2>My Portfolio</h2>	
        </div>
        <div class="row">
          <div class="col-md-6">
-         	<span class="project-title"><a href="http://www.tigrinyatranslator.com/" target="_blank"><h4>Tigrigna Dictionary</h4></a></span>
+         	<span class="project-title"><a href="http://www.tigrinyatranslator.com/" target="_blank"><h3>Tigrigna Dictionary</h3></a></span>
          	<img src="./images/tigrinyatranslator.png" id="screenshot1">
          	<p>A responsive website template designed to translate from Tigrigna to other languages and vice-versa.</p>
          </div>
          <div class="col-md-6">
-         	<span class="project-title"><a href="https://github.com/hruy28/think_with_google" target="_blank"><h4>Replica of thinkwithgoogle</h4></a></span>
+         	<span class="project-title"><a href="https://github.com/hruy28/think_with_google" target="_blank"><h3>Replica of thinkwithgoogle</h3></a></span>
          	<img src="./images/think_with_google.png" id="screenshot2">
             <p>A responsive website template that is the replica of the website <a href="https://www.thinkwithgoogle.com/" target="_blank">Think with google</a>.</p>
          </div>
@@ -92,7 +111,7 @@
     <div class="pageFour text-center" id="p4">
           <div class="row">
             <div class="col-md-8">
-              <h3>Contact me <a href="mailto:hruy88@hotmail.com">hruy88@hotmail.com</a></h3>	
+              <h3>Contact me <a href="mailto:hruy88@hotmail.com" target="_blank">hruy88@hotmail.com</a></h3>	
             </div>
             <div class="col-md-4">
               <a href="https://twitter.com/hruy88" class="btn btn-default paddingBtn" target="_blank"><i class="fa fa-twitter" id="twitterIcon" arial-hidden="true"></i> Twitter</a>
@@ -110,7 +129,7 @@
 	    	<p>Copyright &copy; 2017</p>
 	      </div>
     </div> 	
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
