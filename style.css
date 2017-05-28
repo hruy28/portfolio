@@ -1,13 +1,21 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
 }
 body {
 	background-color: white;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+.main-body {
+	margin: 0 32px;
 }
 
         /* Navigation bar */
@@ -172,6 +180,7 @@ p {
     }
     #screenshot1 {
     	height: 200px;
+    	width: 300px;
     }
 }
 @media screen and (max-width: 520px) {
@@ -195,6 +204,9 @@ p {
 	}
     h1 {
         font-size: 1em;
+    }
+    #screenshot1 {
+    	width: 150px;
     }
     #screenshot1, #screenshot2, #myPhoto {
     	height: 100px;
