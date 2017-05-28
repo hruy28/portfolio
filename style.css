@@ -136,12 +136,13 @@ p {
 
 #screenshot1 {
     height: 290px;
+    width: 450px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 }
 #screenshot2 {
-	height: 300px;
+	height: 290px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
