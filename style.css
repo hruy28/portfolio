@@ -14,9 +14,6 @@ body {
 	overflow-x: hidden;
     overflow-y: scroll;
 }
-.main-body {
-	margin: 0 32px;
-}
 
         /* Navigation bar */
 
@@ -108,7 +105,6 @@ h1 {
 	background-size: cover;
 	padding-top: 5%;
 	padding-bottom: 2%;
-	border-bottom: 2px solid #e0e0e0;
 }
 p {
 	font-size: 1.3em;
@@ -132,7 +128,7 @@ p {
 
    /* Third part */
 .pageThree {
-	background-color: #eee;
+	background-color: #D3D3D3;
 	background-size: cover;
 	padding-top: 1%;
 	padding-bottom: 2%;
@@ -140,6 +136,11 @@ p {
 .paddingTop {
 	padding-top:2%;
     padding-bottom:2%;
+}
+ .project-title a:hover {
+    color: #1abc9c !important;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #screenshot1 {
@@ -155,12 +156,22 @@ p {
 	margin-right: auto;
 	margin-left: auto;
 }
+.text-black a:hover {
+    color: #1abc9c !important;
+    font-weight: bold;
+    text-decoration: none;
+}
 
     /* Fourth part and footer*/
 .pageFour {
    background-color: #37474f;
    background-size: cover;
    padding-top: 5%;	
+}
+ .mail h3 a:hover {
+    color: #1abc9c !important;
+    font-weight: bold;
+    text-decoration: none;
 }
 .paddingBtn {
 	width: 250px;
@@ -172,6 +183,11 @@ p {
  	background-color: #263238;
  	height: 90px;
  }
+ .footer h4 a:hover {
+    color: #1abc9c !important;
+    font-weight: bold;
+    text-decoration: none;
+}
 
        /* Media query*/
 @media screen and (max-width: 680px) {
